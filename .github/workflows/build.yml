@@ -7,4 +7,5 @@ jobs:
       - run: node --version
       - run: npm --version
       - uses: actions/checkout@v3
+      - run: npm i moment
       - run: node app.js
